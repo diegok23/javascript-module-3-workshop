@@ -26,6 +26,8 @@ function exercise06() {
         company: "Assembler School",
         averageGrade: 6.6,
     };
+    const {firstName,lastName,...remainingData} = user
+    return remainingData
 }
 
 // Don’t change the code bellow this line
